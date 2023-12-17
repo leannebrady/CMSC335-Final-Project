@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    html {
+        text-align: center;
+        background: linear-gradient(to bottom, rgb(255, 222, 165), rgb(206, 168, 255));
+        background-repeat: no-repeat;
+        min-height: 100vh;
+    }
+    body {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+    }    
+    h1, h2, strong, p, a {
+        color: white;
+        text-shadow: 2px 2px 4px rgb(224, 193, 120);
+    }
+
+    a {
+        border-style: dashed;
+        border-width: 3px;
+        border-color: rgb(55, 131, 156);
+        padding: 8px;
+        border-radius: 20px;
+        font-size: 18px;
+    }
+
+</style>
+<body>
+    <h2>Account Confirmation</h2>
+    <strong>Username: </strong><%- username %> <br>
+    <strong>Password: </strong><%- password %> <br>
+    <p>Thank you for signing up! Your account has been created.</p>
+    <a href="/">HOME</a>
+</body>
+</html>
